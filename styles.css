@@ -1,3 +1,10 @@
-#loadingProgress {}
+#loadingProgress {
+  width: 100%;
+  background-color: grey;
+}
 
-#loadingBar {}
+#loadingBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
