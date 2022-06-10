@@ -1,6 +1,15 @@
 #loadingProgress {
-  width: 100%;
-  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+
+#loadingProgress::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 10px solid #dddddd;
+  border-top-color: #009579;
+  border-radius: 50%;
 }
 
 #loadingBar {
